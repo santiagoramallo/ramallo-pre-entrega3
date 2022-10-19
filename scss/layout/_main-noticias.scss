@@ -1,0 +1,17 @@
+.main-noticias {
+    width: 100%;
+    margin-top: 3em;
+  }
+  .noticia{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 2em;
+    p{
+        text-align: center;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+  }

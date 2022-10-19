@@ -1,0 +1,65 @@
+/* Medias queris Mobile*/
+
+@media screen and (min-width: 600px) {
+
+    /* Medias queris header */
+
+    header {
+        height: 80px;
+    }
+    .menu {
+        height: 100%;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+    }
+     /* Medias queris footer */
+
+     .footer-grupo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:left;
+        align-items: center;
+    }
+    .footer-logo {
+        display: block;
+        width: 80px;
+        margin-left: 10px;
+        margin-top: 10px;
+        img {
+            width: 100%;
+        }
+    }
+    .footer-iconos {
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly;
+    }
+}
+
+    /* Medias queris Desktop*/
+
+    @media screen and (min-width: 1024px) {
+
+        /* Medias queris header */
+    
+        .menu { 
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+        .menu-lista {
+            justify-content: center;
+            width: 100%;
+            font-size: 1.2rem;
+        }
+        .menu a:hover {
+            color: red;
+        }
+        .footer-iconos {
+            font-size: 1.5rem;
+        }
+        .publicidad-home img:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+        }
+    }

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./base/reset";
+@import "./base/typo";
+@import "./utilities/mixins";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-contacto";
+@import "./layout/main-noticias";
+@import "./layout/main-ranking";
+@import "./layout/main-programacion";
+@import "./utilities/variables";
+@import "./layout/mediaqueris";

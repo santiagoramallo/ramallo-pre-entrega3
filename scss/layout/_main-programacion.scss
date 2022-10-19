@@ -1,0 +1,16 @@
+.main-programacion {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80vh;
+  }
+  .img-programacion {
+    width: 50%;
+    img {
+        width: 100%;
+      }
+  }
+  .texto-programacion {
+    width: 40%;
+    color: white;
+  }
